@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Vocaloid Music Educational Website</title>
+</head>
+
+<body>
+    <h1>Understanding What's Behind The Creation Of Vocaloid Music</h1>
+    <button id="hamburgerMenu">Menu</button>
+    <nav>
+        <ul>
+            <li><button id="topic1button">Culture</button></li>
+            <li><button id="topic2button">Synthesizer</button></li>
+            <li><button id="topic3button">Characters</button></li>
+        </ul>
+    </nav>
+
+    <section id="culture">
+        <h2>Culture Of Vocaloid</h2>
+        <article>
+            <h3>How did Vocaloid Music come about?</h3> <!--First Part Of Culture Subtopic-->
+            <div>
+                <p>The first vocaloid software was created in 2004 named "VOCALOID1", developed by Yamaha Corporation
+                </p>
+                <img src="images/vocaloid1software_image.png" height="315" alt="vocaloid1"
+                    title="firstgenerationvocaloidsoftware">
+                <p>The synthesizer(VOCALOID1) was used to let users input melodies and lyrics to create songs using
+                    virtual voices</p>
+                <p>There were 3 main voicebanks introduced at this time:</p>
+                <ol>
+                    <li>Leon and Lola (English)</li>
+                    <li>Miriam (based on a singer)</li>
+                </ol>
+                <p>At this time, vocaloid was still rather unpopular due to robotic vocals and no engaging design of
+                    characters</p>
+            </div>
+
+            <div>
+                <p>A sudden burst in popularity for vocaloid came about in 2007 with the introduction of Hatsune Miku
+                    using a new engine named "VOCALOID2"</p>
+                <img src="images/vocaloid2software_image.png" height="315" alt="vocaloid2"
+                    title="secondgenerationvocaloidsoftware">
+                <img src="images/2007miku_image.png" height="315" alt="miku" title="mikufromyear2007">
+                <p>Miku was designed in an anime-style with a story and an identity which gave users not just a software
+                    but an idol that they could build stories and songs around</p>
+            </div>
+
+            <div>
+                <p>A Japanese platform called Nico Nico Douga allowed creators to upload and share their original song
+                    productions</p>
+                <img src="images/niconicodouga_image.png" height="315" alt="platform" title="vocaloidproducersplatform">
+                <p>Over time, viral hits began to pop up, such as:</p>
+                <ul>
+                    <li>Melt (by ryo) <button id="video1">Official Video</button></li>
+                    <li>World Is Mine(by ryo) <button id="video2">Official Video</button></li>
+                    <li>Ievan Polkka <button id="video3">Official Video</button></li>
+                </ul>
+                <p>The fan culture exploded and people began to make art, music videos, remixes, fanfics and games
+                    related to Vocaloid</p>
+                <img src="images/vocaloidfanart_image.png" height="315" alt="fanart" title="mikufanart2025">
+                <img src="images/vocaloidrelatedgame_image.png" height="315" alt="vocaloidgame"
+                    title="projectsekaicolorfulstagevocaloidrhythmgame">
+                <img id="mikuId" src="images/mikuwebgame_image.png" height="50" alt="miku" title="mikugame">
+                <p>By this time, the vocaloid characters have expanded beyond solely Hatsune Miku to characters such as
+                    Kagamine Rin, GUMI and Megurine Luka until eventually Vocaloid has become what it is today</p>
+            </div>
+        </article>
+
+        <article>
+            <h3>Live Performances With Vocaloid</h3> <!--Second Part Of Culture Subtopic-->
+            <div>
+                <p>With the advancement of technology these days, vocaloid performances have become a common event for
+                    fans to experience. These concerts involve 3-dimensional projections of the vocaloid characters,
+                    most commonly, Hatsune Miku</p>
+                <!--insert image of Hatsune Miku live performance-->
+                <p>These performances are also usually accompanied by human bands while the idol, in this case Hatsune
+                    Miku, moves, sings, dances and interacts with the audience</p>
+                <!--insert image of Hatsune Miku interacting with audience/ bands during live performance-->
+            </div>
+
+            <div>
+                <p>These vocaloid characters are animated in 3D using MikuMikuDance (MMD) or a custom software where
+                    they are projected onto transparent screens during the live performances to create the illusion for
+                    the audience that the character is on stage</p>
+                <!--insert image?-->
+                <p>You may wonder, how do the characters sing if they are only a projection? Well, it is quite simple
+                    actually. The Vocaloid's vocals which are pre-programmed are just played in sync with the visuals
+                    while a real band or orchestra play the instrumental part of the song, creating the idea that the
+                    projection of the Vocaloid is actually singing</p>
+            </div>
+
+            <div>
+                <p>Some examples of vocaloid live performances that have taken place are:</p>
+                <ol>
+                    <li>Magical Mirai</li>
+                    <li>Miku Expo</li>
+                    <li>Project DIVA Live</li>
+                </ol>
+
+                <input id="aField" type="number" placeholder="Enter a">
+                <input id="bField" type="number" placeholder="Enter b">
+                <button id="sum">Miku Miku Calculate</button>
+                <p class="msg-box" id="sum-box">Hey! Miku would like to sum two numbers up for you!</p>
+            </div>
+
+            <div>
+                <p>This year, 2025, Miku Expo is coming to Asia and I herding large numbers of fans who are scrambling
+                    to pay over $100-$300 to snag an experience</p>
+                <!--insert image of Miku Expo 2025 announcement-->
+            </div>
+        </article>
+    </section>
+
+    <section id="synthesizer">
+        <h2>Vocaloid Synthesizer Technology</h2>
+        <article>
+            <h3>How Does It Work?</h3>
+            <div>
+                <p>To start things off, users install the synthesizer software of their choice (the different kinds of
+                    synthesizer software can be found below)</p>
+                <p>Given a variety of voicebanks in the software, the standard flow of using these synthesizers to make
+                    songs is about typing out lyrics and creating a melody which the vocaloid (depending on the used
+                    voicebank) will sing to</p>
+                <p>The voicebanks are created based on human recordings, where a voice actor sings basic sounds
+                    (phonemes) of different pitches, tones and articulations for a larger variety which are then
+                    processed into a voicebank</p>
+            </div>
+        </article>
+
+        <article>
+            <h3>What are the different types of Vocaloid Synthesizers?</h3>
+            <div>
+                <p>Some of the more commonly known synthesizers are:</p>
+                <ul>
+                    <li>VOCALOID</li>
+                    <li>UTAU</li>
+                    <li>CeVIO AI</li>
+                    <li>SynthV (Synthesizer V)</li>
+                </ul>
+                <p>As much as VOCALOID is the first software where all the other synthesizers originated their base
+                    from, VOCALOID is not necessarily the most used software among them</p>
+            </div>
+            <h3>What is the difference?</h3>
+            <div>
+                <p>As mentioned previously, VOCALOID is created by Yamaha, however, the other synthesizers are made by
+                    other people and managed in different ways, for example, UTAU is a free and community driven
+                    synthesizer instead of being mainly managed by the developer of the software</p>
+                <p>Other than such a simple difference, a synthesizer like SynthV is said to be more realistic and
+                    AI-based as compared to the other synthesizers</p>
+                <p>For different reasons other than the ones stated, people used different synthesizers based on their
+                    preferences</p>
+            </div>
+        </article>
+    </section>
+
+    <section id="characters">
+        <h2>Vocaloid Characters</h2>
+        <article>
+            <h3>Who are the Vocaloid Characters?</h3>
+            <div>There are numerous vocaloid characters as of today, some are not classified as vocaloid by technicality but in general, these are some of the vocaloids we know today:</div>
+            <ol>
+                <li>Hatsune Miku</li>
+                <li>Kagamine Rin</li>
+                <li>Kagamine Len</li>
+                <li>Megurine Luka</li>
+                <li>MEIKO</li>
+                <li>KAITO</li>
+                <li>Kasane Teto</li>
+                <li>GUMI</li>
+                <li>flower</li>
+                <li>IA</li>
+                <li>Zundamon</li>
+            </ol>
+            <p>And the list goes on and on</p>
+        </article>
+
+        <article>
+            <h3>How are these characters designed and branded?</h3>
+        </article>
+    </section>
+</body>
+
+</html>

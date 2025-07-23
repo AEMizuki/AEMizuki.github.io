@@ -1,0 +1,86 @@
+* {
+    background-color:lightblue;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #33CCBB;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: 0px;
+
+    position: sticky;
+    top: 0px;
+}
+
+
+
+nav ul li {
+    display: inline;
+}
+
+
+#hamburgerMenu {
+    display: none;
+}
+
+@media (max-width:800px) {
+    nav ul li {
+        display: block;
+    }
+    #hamburgerMenu {
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+}
+
+.showMenu {
+    display: block;
+}
+
+#mikuId {position: relative; transition: all 0.5s;}
+
+#topic1button {
+    background: red;
+    width: 100px;
+    transition: background 1s, width 2s
+}
+#topic1button.newState {
+    background: yellow;
+    width: 200px;
+}
+
+#topic2button {
+    background: red;
+    width: 100px;
+    transition: background 1s, width 2s
+}
+#topic2button:hover {
+    background: yellow;
+    width: 200px;
+}
+
+#topic3button {
+    background: red;
+    width: 100px;
+    transition: background 1s, width 2s
+}
+#topic3button:hover {
+    background: yellow;
+    width: 200px;
+}
+
+@keyframes mikuFrames{
+    0%{rotate:0}
+    25%{rotate:90deg}
+    50%{rotate:180deg}
+    100%{rotate:270deg}
+}
+
+#mikuId.rotateAnim{
+    animation: mikuFrames 5s;
+}
